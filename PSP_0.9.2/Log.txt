@@ -1,0 +1,25 @@
+---------- Erreur de script : Loading ----------
+----- Type
+Errno::ENOENT
+
+----- Message
+No such file or directory - Graphics/Characters/Pkm 138
+
+----- Position dans Loading
+Ligne 1
+
+----- Backtrace
+Script : Loading | Ligne : 1 | Méthode : in `initialize'
+Script : Loading | Ligne : 1 | Méthode : in `new'
+Script : Loading | Ligne : 1 | Méthode : in `load_bitmap'
+Script : Loading | Ligne : 1 | Méthode : in `character'
+Script : Sprite_Character | Ligne : 45 | Méthode : in `update'
+Script : MAPLINK | Ligne : 274 | Méthode : in `update'
+Script : MAPLINK | Ligne : 273 | Méthode : in `each'
+Script : MAPLINK | Ligne : 273 | Méthode : in `update'
+Script : Scene_Map | Ligne : 61 | Méthode : in `alias_update'
+Script : MAPPANEL | Ligne : 90 | Méthode : in `update'
+Script : Scene_Map | Ligne : 25 | Méthode : in `main'
+Script : Scene_Map | Ligne : 19 | Méthode : in `loop'
+Script : Scene_Map | Ligne : 30 | Méthode : in `main'
+Script : Main | Ligne : 57
